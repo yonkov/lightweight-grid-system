@@ -10,8 +10,8 @@ Example usage:
   <div class="grid__col-6">
 	Column 1
   </div>
-    <div class="grid__col-6">
-    Column 2
+  <div class="grid__col-6">
+  Column 2
   </div>
 </div>
 ```
@@ -23,11 +23,11 @@ Example usage:
   <div class="grid__col-4">
 	Column 1
   </div>
-    <div class="grid__col-4">
-    Column 2
+  <div class="grid__col-4">
+  Column 2
   </div>
   <div class="grid__col-4">
-    Column 3
+  Column 3
   </div>
 </div>
 ```
@@ -39,14 +39,14 @@ Example usage:
   <div class="grid__col-3">
 	Column 1
   </div>
-    <div class="grid__col-3">
-    Column 2
+  <div class="grid__col-3">
+  Column 2
   </div>
   <div class="grid__col-3">
-    Column 3
+  Column 3
   </div>
    <div class="grid__col-3">
-    Column 4
+  Column 4
   </div>
 </div>
 ```
