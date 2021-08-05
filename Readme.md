@@ -5,18 +5,21 @@ Example usage:
 
 ### Two-column layout
 
-```<div class="grid">
+```html
+<div class="grid">
   <div class="grid__col-6">
 	Column 1
   </div>
     <div class="grid__col-6">
     Column 2
   </div>
-</div>```
+</div>
+```
 
 ### Three-column layout
 
-```<div class="grid">
+```html
+<div class="grid">
   <div class="grid__col-4">
 	Column 1
   </div>
@@ -26,11 +29,13 @@ Example usage:
   <div class="grid__col-4">
     Column 3
   </div>
-</div>```
+</div>
+```
 
 ### Four-column layout
 
-```<div class="grid">
+```html
+<div class="grid">
   <div class="grid__col-4">
 	Column 1
   </div>
@@ -43,4 +48,5 @@ Example usage:
    <div class="grid__col-4">
     Column 4
   </div>
-</div>```
+</div>
+```
