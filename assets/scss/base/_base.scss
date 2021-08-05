@@ -1,0 +1,25 @@
+$default-grid-columns: 12;
+$default-grid-gutter: 2%;
+
+// .grid {
+//   @include grid($gutter: $default-grid-gutter); 
+
+//   > .grid__col-3 {
+//     @include grid-col($col: 3, $gutter: $default-grid-gutter);
+//   }
+//   > .grid__col-9 {
+//     @include grid-col($col: 9, $gutter: $default-grid-gutter);
+//   }
+// } 
+
+.grid {
+	@include grid($gutter: $default-grid-gutter);
+
+	@for $i from 1 through $default-grid-columns {
+		> .grid__col-#{$i} {
+            @include grid-col($col: $i, $grid-columns: $default-grid-columns, $gutter: $default-grid-gutter);
+			background-color: blue;
+			color: #fff;
+		}
+	}
+}
