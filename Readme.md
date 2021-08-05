@@ -36,16 +36,16 @@ Example usage:
 
 ```html
 <div class="grid">
-  <div class="grid__col-4">
+  <div class="grid__col-3">
 	Column 1
   </div>
-    <div class="grid__col-4">
+    <div class="grid__col-3">
     Column 2
   </div>
-  <div class="grid__col-4">
+  <div class="grid__col-3">
     Column 3
   </div>
-   <div class="grid__col-4">
+   <div class="grid__col-3">
     Column 4
   </div>
 </div>
